@@ -93,28 +93,6 @@ export default function Home() {
           Data spare part PT Bintang Toedjoe Site Pulogadung
         </p>
 
-        {/* Quick Menu Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-10">
-          <Card
-            theme={theme}
-            title="Lifetime"
-            desc="Monitoring Penggantian Spare Part"
-            onClick={() => router.push("/dashboard/lifetime/overview")}
-          />
-          <Card
-            theme={theme}
-            title="Kanban Internal"
-            desc="PR • PO • Tracking Internal"
-            onClick={() => router.push("/dashboard/kanban/internal")}
-          />
-          <Card
-            theme={theme}
-            title="Kanban Eksternal"
-            desc="PR • PO • Tracking Eksternal"
-            onClick={() => router.push("/dashboard/kanban/external")}
-          />
-        </div>
-
         {/* Main Button */}
         <motion.button
           whileHover={{ scale: 1.05 }}

@@ -15,41 +15,20 @@ export default function Footer() {
           by{" "}
           <Link
             className="underline hover:text-black transition-colors font-medium"
-            href="https://www.linkedin.com/in/putri-amanda-khairunnisa/"
-          >
-            Amanda
-          </Link>
-          ,
-          <Link
-            className="underline hover:text-black transition-colors font-medium"
-            href="https://www.linkedin.com/in/armelia-agustin/"
-          >
-            Armelia
-          </Link>
-          ,
-          <Link
-            className="underline hover:text-black transition-colors font-medium"
-            href="https://www.linkedin.com/in/danang-hapis-fadillah-682878202/"
-          >
-            Danang
-          </Link>
-          ,
-          <Link
-            className="underline hover:text-black transition-colors font-medium"
-            href="https://www.instagram.com/melianadsh?igsh=MWpranhrdGM5M3d0Mg%3D%3D&utm_source=qr"
+            href="https://www.linkedin.com/in/melianadela/"
           >
             Eli
           </Link>
-          , and
+          and
           <Link
             className="underline hover:text-black transition-colors font-medium"
-            href="https://www.instagram.com/nadyaa.ka?igsh=MWRoMmR0Znh3eHRtNQ=="
+            href="https://www.linkedin.com/in/nadyakartikaa/"
           >
             Nadya
           </Link>
         </span>
 
-        <span className="opacity-70">at BTS Batch 3 & 4</span>
+        <span className="opacity-70">at BTS Batch 4</span>
       </div>
     </footer>
   );
