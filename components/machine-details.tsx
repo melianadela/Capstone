@@ -626,8 +626,8 @@ async function handleSubmitTanggal() {
             <SelectContent>
               <SelectItem value="all">All Categories</SelectItem>
               <SelectItem value="Vital">Vital</SelectItem>
-              <SelectItem value="Desirable">Desirable</SelectItem>
               <SelectItem value="Essential">Essential</SelectItem>
+              <SelectItem value="Desirable">Desirable</SelectItem>
             </SelectContent>
           </Select>
           <Select value={statusFilter} onValueChange={setStatusFilter}>
